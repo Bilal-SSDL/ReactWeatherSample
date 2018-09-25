@@ -11,6 +11,8 @@ var Examples= require('Examples');
 require('style!css!foundation-sites/dist/foundation.min.css');
 $(document).foundation();
 
+require('style!css!applicationStyles');
+
 var objOne= {
     name: 'Bilal',
     location: 'Islamabad'
